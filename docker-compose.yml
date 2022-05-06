@@ -1,0 +1,20 @@
+version: "3"
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    tty: true
+    command:
+      - bash
+      - -c
+      - | 
+        [ -f ~/.exec-once ] || {
+          go mod init main;
+          go mod tidy &&
+          touch ~/.exec-once
+        }
+        air
