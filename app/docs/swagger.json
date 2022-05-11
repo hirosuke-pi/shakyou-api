@@ -1,0 +1,15 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "S先生の写経課題を楽に終わらせるためのAPI",
+        "title": "Shakyou API",
+        "contact": {
+            "name": "hirosuke-pi",
+            "url": "https://www.twitter.com/hirosuke_pi"
+        },
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
+    "paths": {}
+}

@@ -1,0 +1,11 @@
+basePath: /api/v1
+host: localhost:8080
+info:
+  contact:
+    name: hirosuke-pi
+    url: https://www.twitter.com/hirosuke_pi
+  description: S先生の写経課題を楽に終わらせるためのAPI
+  title: Shakyou API
+  version: "1.0"
+paths: {}
+swagger: "2.0"

@@ -17,4 +17,5 @@ services:
           go mod tidy &&
           touch ~/.exec-once
         }
+        swag init
         air
