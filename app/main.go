@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 
+	. "main/api/v1"
 	_ "main/docs"
 
 	echoSwagger "github.com/swaggo/echo-swagger"
@@ -10,8 +11,6 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
-
-var e = createMux()
 
 // @title Shakyou API
 // @version 1.0
@@ -24,23 +23,21 @@ var e = createMux()
 // @BasePath /api/v1
 
 func main() {
-	e.GET("/", articleIndex)
+	test1()
+
+	e := echo.New()
+	e.Use(middleware.Recover())
+	e.Use(middleware.Logger())
+	e.Use(middleware.Gzip())
+	e.GET("/swagger/*", echoSwagger.WrapHandler)
+
+	api1 := e.Group("/api/v1")
+	api1.GET("/", showHello)
+	api1.POST("/shakyou", postShakyouPdf)
 
 	e.Logger.Fatal(e.Start(":8080"))
 }
 
-func createMux() *echo.Echo {
-	e := echo.New()
-
-	e.Use(middleware.Recover())
-	e.Use(middleware.Logger())
-	e.Use(middleware.Gzip())
-
-	e.GET("/swagger/*", echoSwagger.WrapHandler)
-
-	return e
-}
-
-func articleIndex(c echo.Context) error {
-	return c.String(http.StatusOK, "Hello, World! !!! test")
+func showHello(c echo.Context) error {
+	return c.String(http.StatusOK, "Hello, World!")
 }
