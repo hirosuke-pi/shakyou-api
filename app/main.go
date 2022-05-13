@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	. "main/api/v1"
-	_ "main/docs"
+	. "shakyou-api/api/v1"
+	_ "shakyou-api/docs"
 
 	echoSwagger "github.com/swaggo/echo-swagger"
 
@@ -23,17 +23,15 @@ import (
 // @BasePath /api/v1
 
 func main() {
-	test1()
-
 	e := echo.New()
 	e.Use(middleware.Recover())
 	e.Use(middleware.Logger())
 	e.Use(middleware.Gzip())
 	e.GET("/swagger/*", echoSwagger.WrapHandler)
 
-	api1 := e.Group("/api/v1")
-	api1.GET("/", showHello)
-	api1.POST("/shakyou", postShakyouPdf)
+	v1 := e.Group("/api/v1")
+	v1.GET("/", showHello)
+	v1.POST("/shakyou", PostShakyouPdf)
 
 	e.Logger.Fatal(e.Start(":8080"))
 }

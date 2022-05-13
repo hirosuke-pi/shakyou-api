@@ -13,7 +13,7 @@ services:
       - -c
       - | 
         [ -f ~/.exec-once ] || {
-          go mod init main;
+          go mod init shakyou-api;
           go mod tidy &&
           touch ~/.exec-once
         }
