@@ -2,9 +2,11 @@ package main
 
 import (
 	"net/http"
+	"strconv"
 
 	. "shakyou-api/api/v1"
 	_ "shakyou-api/docs"
+	. "shakyou-api/mods"
 
 	echoSwagger "github.com/swaggo/echo-swagger"
 
@@ -23,6 +25,11 @@ import (
 // @BasePath /api/v1
 
 func main() {
+	LaunchPdf("test")
+	startEchoServer(8080)
+}
+
+func startEchoServer(port int) {
 	e := echo.New()
 	e.Use(middleware.Recover())
 	e.Use(middleware.Logger())
@@ -33,7 +40,7 @@ func main() {
 	v1.GET("/", showHello)
 	v1.POST("/shakyou", PostShakyouPdf)
 
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":" + strconv.Itoa(port)))
 }
 
 func showHello(c echo.Context) error {
