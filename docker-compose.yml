@@ -13,6 +13,8 @@ services:
       - -c
       - | 
         [ -f ~/.exec-once ] || {
+          apt-get update
+          apt-get install poppler-utils wv unrtf tidy -y
           go mod init shakyou-api;
           go mod tidy &&
           touch ~/.exec-once

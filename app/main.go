@@ -25,7 +25,7 @@ import (
 // @BasePath /api/v1
 
 func main() {
-	LaunchPdf("test")
+	Pdf2Code("", "")
 	startEchoServer(8080)
 }
 

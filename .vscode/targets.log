@@ -1,0 +1,356 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# ����̓t���[�\�t�g�E�F�A�ł�. ���p�����ɂ��Ă̓\�[�X��
+# ������������.
+# ���Ɛ������̖ړI�ւ̓K�����̔@���Ɋւ�炸, ���ۏ؂ł�.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make �f�[�^�x�[�X�o�� Sun May 15 13:00:43 2022
+
+# �ϐ�
+
+# �����ϐ�
+<D = $(patsubst %/,%,$(dir $<))
+# �����ϐ�
+?F = $(notdir $?)
+# makefile �ϐ�
+MAKEFLAGS = Rrqp
+# ���ϐ�
+VSCODE_LOG_NATIVE = false
+# �����ϐ�
+?D = $(patsubst %/,%,$(dir $?))
+# �����ϐ�
+@D = $(patsubst %/,%,$(dir $@))
+# ���ϐ�
+HOMEDRIVE = C:
+# �����ϐ�
+@F = $(notdir $@)
+# �����ϐ�
+^D = $(patsubst %/,%,$(dir $^))
+# makefile �ϐ�
+CURDIR := c:/Users/test/Documents/Projects/shakyou-api
+# �f�t�H���g
+SHELL := sh.exe
+# ���ϐ�
+WINDIR = C:\WINDOWS
+# ���ϐ�
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"f5b8523d60216379ef9ba6dc243eb093.ja","_translationsConfigFile":"C:\\Users\\test\\AppData\\Roaming\\Code\\clp\\f5b8523d60216379ef9ba6dc243eb093.ja\\tcf.json","_cacheRoot":"C:\\Users\\test\\AppData\\Roaming\\Code\\clp\\f5b8523d60216379ef9ba6dc243eb093.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\test\\AppData\\Roaming\\Code\\clp\\f5b8523d60216379ef9ba6dc243eb093.ja\\da15b6fd3ef856477bf6f4fb29ba1b7af717770d","_corruptedFile":"C:\\Users\\test\\AppData\\Roaming\\Code\\clp\\f5b8523d60216379ef9ba6dc243eb093.ja\\corrupted.info","_languagePackSupport":true}
+# ���ϐ�
+ONEDRIVE = C:\Users\test\OneDrive
+# ���ϐ�
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile �ϐ� (`makefile', 1 �s�ڂ���)
+MAKEFILE_LIST :=  makefile
+# ���ϐ�
+TMP = C:\Users\test\AppData\Local\Temp
+# ���ϐ�
+VSCODE_VERBOSE_LOGGING = true
+# ���ϐ�
+PROGRAMW6432 = C:\Program Files
+# ���ϐ�
+PROGRAMDATA = C:\ProgramData
+# ���ϐ�
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-80cbc273-e634-407b-92e6-0b36fdaf058c-sock
+# ���ϐ�
+VSCODE_CWD = C:\Users\test\AppData\Local\Programs\Microsoft VS Code
+# ���ϐ�
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\CMake\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\heroku\bin;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\test\.cargo\bin;C:\Users\test\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\test\AppData\Local\Programs\Python\Python38\;C:\Users\test\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\bin;;C:\Program Files (x86)\Nmap;C:\Users\test\AppData\Local\GitHubDesktop\bin;C:\Users\test\.dotnet\tools;C:\Users\test\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\test\AppData\Roaming\npm;C:\Users\test\go\bin
+# ���ϐ�
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ���ϐ�
+CHOCOLATEYLASTPATHUPDATE = 132510403984644531
+# ���ϐ�
+PROCESSOR_ARCHITECTURE = x86
+# ���ϐ�
+USERPROFILE = C:\Users\test
+# ���ϐ�
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# ���ϐ�
+ALLUSERSPROFILE = C:\ProgramData
+# ���ϐ�
+GOPATH = C:\Users\test\go
+# ���ϐ�
+VSCODE_LOG_STACK = false
+# ���ϐ�
+NUMBER_OF_PROCESSORS = 24
+# ���ϐ�
+ELECTRON_RUN_AS_NODE = 1
+# �f�t�H���g
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �����ϐ�
+%F = $(notdir $%)
+# ���ϐ�
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7856_USLJTVTSTPCMKBBF
+# ���ϐ�
+VSCODE_PIPE_LOGGING = true
+# ���ϐ�
+COMPUTERNAME = DESKTOP-Q4J6BMT
+# ���ϐ�
+PROGRAMFILES = C:\Program Files (x86)
+# ���ϐ�
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ���ϐ�
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���ϐ�
+USERNAME = test
+# ���ϐ�
+PUBLIC = C:\Users\Public
+# ���ϐ�
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ���ϐ�
+VSCODE_CODE_CACHE_PATH = C:\Users\test\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# ���ϐ�
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ���ϐ�
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ���ϐ�
+LOGONSERVER = \\DESKTOP-Q4J6BMT
+# ���ϐ�
+ONEDRIVECONSUMER = C:\Users\test\OneDrive
+# ���ϐ�
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ���ϐ�
+USERDOMAIN = DESKTOP-Q4J6BMT
+# ���ϐ�
+INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\bin;
+# �f�t�H���g
+MAKE = $(MAKE_COMMAND)
+# �f�t�H���g
+MAKECMDGOALS := all
+# �f�t�H���g
+MAKE_VERSION := 3.81
+# makefile �ϐ�
+.DEFAULT_GOAL := up
+# ���ϐ�
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �����ϐ�
+%D = $(patsubst %/,%,$(dir $%))
+# ���ϐ�
+LOCALAPPDATA = C:\Users\test\AppData\Local
+# ���ϐ�
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �f�t�H���g
+MAKE_COMMAND := make.exe
+# ���ϐ�
+PROCESSOR_ARCHITEW6432 = AMD64
+# �f�t�H���g
+.VARIABLES := 
+# �����ϐ�
+*F = $(notdir $*)
+# ���ϐ�
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# ���ϐ�
+OS = Windows_NT
+# ���ϐ�
+VSCODE_IPC_HOOK = \\.\pipe\90d8187e88843f6d2ab9add6cf375c00-1.67.1-main-sock
+# ���ϐ�
+HOMEPATH = \Users\test
+# ���ϐ�
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ���ϐ�
+PROMPT = $P$G
+# ���ϐ�
+MFLAGS = -Rrqp
+# �����ϐ�
+*D = $(patsubst %/,%,$(dir $*))
+# ���ϐ�
+SYSTEMROOT = C:\WINDOWS
+# �����ϐ�
++D = $(patsubst %/,%,$(dir $+))
+# �����ϐ�
++F = $(notdir $+)
+# ���ϐ�
+APPDATA = C:\Users\test\AppData\Roaming
+# ���ϐ�
+TEMP = C:\Users\test\AppData\Local\Temp
+# ���ϐ�
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �f�t�H���g
+MAKEFILES := 
+# �����ϐ�
+<F = $(notdir $<)
+# ���ϐ�
+LC_ALL = C
+# �����ϐ�
+^F = $(notdir $^)
+# �f�t�H���g
+SUFFIXES := 
+# ���ϐ�
+SYSTEMDRIVE = C:
+# ���ϐ�
+SESSIONNAME = Console
+# ���ϐ�
+PROCESSOR_REVISION = 7100
+# ���ϐ�
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# ���ϐ�
+MAKELEVEL := 0
+# ���ϐ�
+LANG = C
+# ���ϐ�
+PROCESSOR_LEVEL = 23
+# ���ϐ�
+VSCODE_PID = 7856
+# ���ϐ�
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-Q4J6BMT
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=92/1024=9%, Rehash=0, Collisions=9/112=8%
+
+# Pattern-specific Variable Values
+
+# �p�^�[���w��ϐ��̒l�Ȃ�.
+
+# �f�B���N�g��
+
+# C:\Users\test\AppData\Local\Programs\Python\Python38\Scripts\ (key C:/Users/test/AppData/Local/Programs/Python/Python38/Scripts/, mtime 1600411429): 7 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# : ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\heroku\bin (key C:/Program Files/heroku/bin, mtime 1639115471): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1647433617): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Docker\Docker\resources\bin (key C:/Program Files/Docker/Docker/resources/bin, mtime 1651826621): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1648278721): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\go\bin (key C:/Users/test/go/bin, mtime 1651828952): 12 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1635664179): 32 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652271173): 172 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# . (key c:/Users/test/Documents/Projects/shakyou-api, mtime 1652587243): 10 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1641181953): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1602080628): 10 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1606566798): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1618843688): 11 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Python310\ (key C:/Python310/, mtime 1641182028): 18 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\bin (key C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.2.2/bin, mtime 1600414134): 30 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Python310\Scripts\ (key C:/Python310/Scripts/, mtime 1641182028): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\ProgramData\DockerDesktop\version-bin (key C:/ProgramData/DockerDesktop/version-bin, mtime 1651826563): 2 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows (key C:/Windows, mtime 1602773585): 128 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/test/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652277162): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\AppData\Roaming\npm (key C:/Users/test/AppData/Roaming/npm, mtime 1645769138): 31 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\.dotnet\tools: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Python39\ (key C:/Python39/, mtime 1619187535): 18 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\Nmap (key C:/Program Files (x86)/Nmap, mtime 1602657156): 37 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Python39\Scripts\ (key C:/Python39/Scripts/, mtime 1641876859): 25 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1616395403): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1652277010): 3097 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\.cargo\bin (key C:/Users/test/.cargo/bin, mtime 1645091013): 14 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\CMake\bin (key C:/Program Files/CMake/bin, mtime 1612625397): 7 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\AppData\Local\Programs\Python\Python38\ (key C:/Users/test/AppData/Local/Programs/Python/Python38/, mtime 1600411426): 18 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\AppData\Local\GitHubDesktop\bin (key C:/Users/test/AppData/Local/GitHubDesktop/bin, mtime 1605672198): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\test\AppData\Local\Microsoft\WindowsApps (key C:/Users/test/AppData/Local/Microsoft/WindowsApps, mtime 1652195493): 29 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1602080634): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1616045483): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+
+# 3792 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (35 �̃f�B���N�g����).
+
+# �Öك��[��
+
+# �Öك��[���Ȃ�.
+
+# �t�@�C��
+
+# �^�[�Q�b�g�ł͂���܂���:
+all:
+#  �R�}���h���C���^�[�Q�b�g.
+#  �Öك��[���̒T�����s���܂���.
+#  �t�@�C�������݂��܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �^�[�Q�b�g�ł͂���܂���:
+.DEFAULT:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+up:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 2 �s�ڂ���):
+	docker-compose up -d
+	
+
+remove:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 8 �s�ڂ���):
+	docker-compose down --rmi all --volumes --remove-orphans
+	
+
+# �^�[�Q�b�g�ł͂���܂���:
+makefile:
+#  �Öك��[���̒T�����s���܂���.
+#  �ŏI�C�� 2022-05-07 00:46:34
+#  �t�@�C���͍X�V����Ă��܂�.
+#  �X�V�ɐ������܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+reload:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 6 �s�ڂ���):
+	docker-compose restart
+	
+
+# �^�[�Q�b�g�ł͂���܂���:
+.SUFFIXES:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+logs:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 10 �s�ڂ���):
+	docker-compose logs
+	
+
+shell:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 12 �s�ڂ���):
+	docker-compose exec api bash
+	
+
+reup:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 14 �s�ڂ���):
+	make remove
+	make up
+	
+
+down:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 4 �s�ڂ���):
+	docker-compose down
+	
+
+# �t�@�C���n�b�V���e�[�u���̏��:
+# Load=11/1024=1%, Rehash=0, Collisions=1/22=5%
+# VPATH �T���p�X
+
+# `vpath' �T���p�X�͂���܂���
+
+# ��ʂ� (`VPATH' �ϐ�) �T���p�X�Ȃ�.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Make �f�[�^�x�[�X�I�� Sun May 15 13:00:43 2022
+
+ 
+make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
+
